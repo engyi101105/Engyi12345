@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Scholarships in Cambodia | Scholarship Hub</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+ <!-- 🎓 Hero Section -->
+<header class="header">
+  <video autoplay muted loop class="background-video">
+    <source src="6550419-uhd_3840_2160_25fps.mp4" type="video/mp4">
+  </video>
+  
+  <!-- 🌍 Navigation Bar (Inside Video) -->
+  <nav class="navbar">
+    <div class="logo-container">
+      <i class="fa fa-bars" id="menu-icon"></i> <!-- Menu Icon -->
+      🎓 <span>Exploring Scholarships in Cambodia</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <select id="language">
+          <option value="en">English</option>
+          <option value="kh">ភាសាខ្មែរ</option>
+        </select>
+      </li>
+      <li><a href="signup.html" class="btn">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <div class="overlay">
+    <div class="hero-content">
+      <h1>Find Your Dream Scholarship</h1>
+      <p>Empowering Cambodian students with the best opportunities.</p>
+<!-- 🔎 Search Section -->
+  <div class="search-box">
+    <select id="province">
+      <option value="" disabled selected>📍 Select Province</option>
+      <option value="phnompenh">Phnom Penh</option>
+      <option value="banteaymeanchey">Banteay Meanchey</option>
+      <option value="battambang">Battambang</option>
+      <option value="kampongcham">Kampong Cham</option>
+      <option value="kampongchhnang">Kampong Chhnang</option>
+      <option value="kampongthom">Kampong Thom</option>
+      <option value="kampot">Kampot</option>
+      <option value="kandal">Kandal</option>
+      <option value="kohkong">Koh Kong</option>
+      <option value="kratie">Kratie</option>
+      <option value="mondulkiri">Mondulkiri</option>
+      <option value="oddormeanchey">Oddar Meanchey</option>
+      <option value="pailin">Pailin</option>
+      <option value="preahvihear">Preah Vihear</option>
+      <option value="preyveng">Prey Veng</option>
+      <option value="pursat">Pursat</option>
+      <option value="ratanakiri">Ratanakiri</option>
+      <option value="siemreap">Siem Reap</option>
+      <option value="sihanoukville">Sihanoukville</option>
+      <option value="stungtreng">Stung Treng</option>
+      <option value="svayrieng">Svay Rieng</option>
+      <option value="takao">Takéo</option>
+      <option value="tboungkhmum">Tboung Khmum</option>
+    </select>
+    <select id="education-status">
+      <option value="" disabled selected>🎓 Education Level</option>
+      <option value="highschool">High School Graduate</option>
+      <option value="university">University Student</option>
+      <option value="other">Others</option>
+    </select>
+   <!-- "Explore Now" Button Replaces "Go" Button -->
+   <button class="btn" id="exploreNow">Explore Now</button>
+</div>
+</div>
+</header>
+<!-- 📂 Sidebar Menu -->
+<div id="sidebar" class="hidden">
+  <button class="close-btn" id="close-menu">×</button>
+  <div class="profile">
+    <img src="user-placeholder.png" alt="Profile Picture">
+    <h3>Guest User</h3>
+    <a href="#">+ Add your university or school</a>
+  </div>
+  <ul>
+    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="library.html"><i class="fa fa-book"></i> My Library</a></li>
+    <li><a href="notes.html"><i class="fa fa-sticky-note"></i> Notes <span class="new-badge">New</span></a></li>
+    <li><a href="recent.html"><i class="fa fa-clock"></i> Recent</a></li>
+  </ul>
+</div>
+
+
+<!-- 🎓 Featured Scholarships -->
+<section class="scholarships">
+  <h2>🎓 Availbale scholarship in cambodia.</h2>
+  <div class="scholarship-container">
+      <!-- Scholarship 1 -->
+      <div class="scholarship-card">
+          <div class="scholarship-header">
+              <h3>Kampuchea Higher Education Grant</h3>
+              <p>Financial aid for students in rural Cambodia.</p>
+          </div>
+          <div class="scholarship-footer">
+              <a href="kampuchea-details.html" class="details-btn">Learn More</a>
+          </div>
+      </div>
+
+      <!-- Scholarship 2 (New) -->
+      <div class="scholarship-card">
+          <div class="scholarship-header">
+              <h3>Overseas Study Scholarship</h3>
+              <p>Support for Cambodian students to study abroad.</p>
+          </div>
+          <div class="scholarship-footer">
+            <a href="explore-details.html" class="details-btn">Explore Details</a>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+<section class="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item" onclick="reloadFAQPage()">
+      <h3>The journey towards scholarship opportunities.</h3>
+      <p>Visit the scholarship page and follow the instructions.</p>
+  </div>
+
+  <div class="faq-item" onclick="reloadFAQPage()">
+      <h3>What documents do I need?</h3>
+      <p>Common documents include transcripts and recommendation letters.</p>
+  </div>
+</section>
+
+<script>
+  function reloadFAQPage() {
+      window.location.href = "faqs.html"; // Redirects to the FAQ page
+  }
+</script>
+
+
+<a!-- 🎥 Video Below Title -->
+<section class="video-section">
+  <h2>How to Apply for a Scholarship?</h2>
+  <video controls>
+    <source src="schorlorship.mp4" type="video/mp4">
+  </video>
+</section>
+
+<!-- 📩 Contact Section -->
+<section class="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button class="btn" type="submit">Send Message</button>
+  </form>
+</section>
+
+ <!-- 🌎 Footer -->
+ <footer class="footer">
+  <div class="footer-links">
+      <div>
+          <h3>About</h3>
+          <a href="about-us.html">About us</a>
+          <a href="scholarship-policy.html">Scholarship Policy</a>
+          <a href="blog.html">Blog</a>
+      </div>
+      <div>
+          <h3>Opportunities</h3>
+          <a href="scholarship-by-province.html">Find Scholarships by Province</a>
+          <a href="undergratuate.html">Undergraduate Scholarship</a>
+          <a href="postgratuate.html">Postgraduate Scholarships</a>
+      </div>
+      <div>
+          <h3>Useful links</h3>
+          <a href="free-resources.html">Free Resource</a>
+      </div>
+      <div>
+          <h3>Support</h3>
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="faqs.html">FAQs</a>
+      </div>
+
+        <h3>Connect</h3>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/161V5KMnMx/"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/borasy.27?igsh=MXRoaXQxZWNxZGIxYw=="><i class="fab fa-instagram"></i></a>
+        </div>
+
+  </div>
+  <div class="footer-bottom">
+      <p>© 2025 Scholarships in Cambodia. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<!-- 📂 Sidebar Menu -->
+<div id="sidebar" class="hidden">
+  <button class="close-btn" id="close-menu">×</button>
+  <div class="profile">
+    <img src="user-placeholder.png" alt="Profile Picture">
+    <h3>Guest User</h3>
+    <a href="#">+ Add your university or school</a>
+  </div>
+  <ul>
+    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+    <li><a href="#"><i class="fa fa-book"></i> My Library</a></li>
+    <li><a href="#"><i class="fa fa-sticky-note"></i> AI Notes <span class="new-badge">New</span></a></li>
+    <li><a href="#"><i class="fa fa-comments"></i> Ask AI</a></li>
+    <li><a href="#"><i class="fa fa-envelope"></i> Chats</a></li>
+    <li><a href="#"><i class="fa fa-clock"></i> Recent</a></li>
+  </ul>
+</div>
+
+
+<!-- JavaScript for Sidebar Toggle -->
+<script>
+  const menuIcon = document.getElementById("menu-icon");
+  const sidebar = document.getElementById("sidebar");
+  const closeBtn = document.getElementById("close-menu");
+  let province = document.getElementById("province").value;
+  let education = document.getElementById("education-status").value;
+  let errorMessage = document.getElementById("errorMessage");
+
+  menuIcon.addEventListener("click", function() {
+    if (sidebar.classList.contains("hidden")) {
+      sidebar.classList.remove("hidden");
+    } else {
+      location.reload(); // Reload page when clicked again
+    }
+    if (!province || !education) {
+            errorMessage.style.display = "block"; // Show error message
+        } else {
+            errorMessage.style.display = "none"; // Hide error message
+            window.location.href = `scholarship-results.html?province=${province}&education=${education}`;
+        }
+  });
+
+  closeBtn.addEventListener("click", function() {
+    sidebar.classList.add("hidden");
+  });
+    function loadPage(page) {
+        document.getElementById('content-frame').src = page;
+    }
+    //===================================================================
+    // Add event listener to the "Explore Now" button
+document.getElementById("exploreNow").addEventListener("click", function(event) {
+  // Get selected values from the dropdowns
+  let province = document.getElementById("province").value;
+  let education = document.getElementById("education-status").value;
+
+  // Check if both fields are selected
+  if (!province || !education) {
+      // If either field is not selected, show an error message
+      alert("Please select both Province and Education Level before proceeding.");
+  } else {
+      // Redirect to explore-now.html with selected values as query parameters
+      window.location.href = `explore-now.html?province=${province}&education=${education}`;
+  }
+});
+
+</script>
+<script src="script.js">
+
+// Event listener for "Explore Now" button
+    document.getElementById("exploreNow").addEventListener("click", validateAndNavigate);
+</script>
+
+</body>
+</html>
